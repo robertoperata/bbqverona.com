@@ -1,0 +1,118 @@
+.wpurp-clear {
+  float: none;
+  clear: both; }
+
+.wpurp-meta, .wpurp-searchable-recipe {
+  display: none; }
+
+.wpurp-errors {
+  border: 1px solid darkred;
+  padding: 10px;
+  margin-bottom: 20px; }
+  .wpurp-errors ul {
+    margin: 0 !important; }
+
+.wpurp-required {
+  color: darkred;
+  margin-left: 2px;
+  vertical-align: top;
+  font-size: smaller; }
+
+html body.rtl .wpurp-container {
+  text-align: right; }
+
+html body .wpurp-container {
+  position: relative;
+  clear: both;
+  text-align: left;
+  font-size: 14px !important; }
+  html body .wpurp-container.wpupg-item {
+    position: relative;
+    float: left;
+    clear: none; }
+  html body .wpurp-container span:not(.wpupg-show-on-hover) {
+    display: inline-block !important; }
+  html body .wpurp-container.wpupg-hovering span.wpupg-show-on-hover {
+    display: inline-block !important; }
+  html body .wpurp-container * {
+    border: 0 !important;
+    -webkit-margin: 0 !important;
+    -moz-margin: 0 !important;
+    margin: 0 !important;
+    -webkit-padding: 0 !important;
+    -moz-padding: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    color: inherit !important;
+    font-size: inherit !important;
+    line-height: 1.4 !important;
+    font-weight: normal !important; }
+  html body .wpurp-container b, html body .wpurp-container strong {
+    font-weight: bold !important; }
+  html body .wpurp-container hr {
+    background-color: #ccc !important; }
+  html body .wpurp-container li:before {
+    content: none !important; }
+  html body .wpurp-container .wpurp-recipe-notes h1, html body .wpurp-container .wpurp-paragraph h1 {
+    font-size: 2em !important;
+    margin: 0.67em 0 !important; }
+  html body .wpurp-container .wpurp-recipe-notes h2, html body .wpurp-container .wpurp-paragraph h2 {
+    font-size: 1.5em !important;
+    margin: 0.83em 0 !important; }
+  html body .wpurp-container .wpurp-recipe-notes h3, html body .wpurp-container .wpurp-paragraph h3 {
+    font-size: 1.17em !important;
+    margin: 1em 0 !important; }
+  html body .wpurp-container .wpurp-recipe-notes h4, html body .wpurp-container .wpurp-paragraph h4 {
+    font-size: 1em !important;
+    margin: 1.33em 0 !important; }
+  html body .wpurp-container .wpurp-recipe-notes h5, html body .wpurp-container .wpurp-paragraph h5 {
+    font-size: 0.83em !important;
+    margin: 1.67em 0 !important; }
+  html body .wpurp-container .wpurp-recipe-notes h6, html body .wpurp-container .wpurp-paragraph h6 {
+    font-size: 0.75em !important;
+    margin: 2.33em 0 !important; }
+  html body .wpurp-container .wpurp-recipe-notes p, html body .wpurp-container .wpurp-recipe-notes pre, html body .wpurp-container .wpurp-paragraph p, html body .wpurp-container .wpurp-paragraph pre {
+    margin: 1em 0 !important; }
+  html body .wpurp-container .wpurp-recipe-notes code, html body .wpurp-container .wpurp-recipe-notes kbd, html body .wpurp-container .wpurp-recipe-notes pre, html body .wpurp-container .wpurp-recipe-notes samp, html body .wpurp-container .wpurp-paragraph code, html body .wpurp-container .wpurp-paragraph kbd, html body .wpurp-container .wpurp-paragraph pre, html body .wpurp-container .wpurp-paragraph samp {
+    font-family: monospace, serif !important;
+    _font-family: 'courier new', monospace !important;
+    font-size: 1em !important; }
+  html body .wpurp-container .wpurp-recipe-notes blockquote, html body .wpurp-container .wpurp-paragraph blockquote {
+    margin: 1em 40px !important; }
+  html body .wpurp-container .wpurp-recipe-notes b, html body .wpurp-container .wpurp-recipe-notes strong, html body .wpurp-container .wpurp-paragraph b, html body .wpurp-container .wpurp-paragraph strong {
+    font-weight: bold !important; }
+  html body .wpurp-container .wpurp-recipe-notes dl, html body .wpurp-container .wpurp-recipe-notes menu, html body .wpurp-container .wpurp-recipe-notes ol, html body .wpurp-container .wpurp-recipe-notes ul, html body .wpurp-container .wpurp-paragraph dl, html body .wpurp-container .wpurp-paragraph menu, html body .wpurp-container .wpurp-paragraph ol, html body .wpurp-container .wpurp-paragraph ul {
+    margin: 1em 0 !important; }
+  html body .wpurp-container .wpurp-recipe-notes dd, html body .wpurp-container .wpurp-paragraph dd {
+    margin: 0 0 0 40px !important; }
+  html body .wpurp-container .wpurp-recipe-notes menu, html body .wpurp-container .wpurp-recipe-notes ol, html body .wpurp-container .wpurp-recipe-notes ul, html body .wpurp-container .wpurp-paragraph menu, html body .wpurp-container .wpurp-paragraph ol, html body .wpurp-container .wpurp-paragraph ul {
+    padding: 0 0 0 40px !important; }
+  html body .wpurp-container .wpurp-recipe-notes .aligncenter, html body .wpurp-container .wpurp-paragraph .aligncenter {
+    margin: 0 auto !important; }
+  html body .wpurp-container table {
+    table-layout: auto !important;
+    border-collapse: collapse !important;
+    width: 100% !important; }
+  html body .wpurp-container a {
+    text-decoration: none !important; }
+    html body .wpurp-container a:hover {
+      text-decoration: underline !important; }
+  html body .wpurp-container .wpurp-responsive-mobile, html body .wpurp-container .wpupg-show-on-hover {
+    display: none; }
+  html body .wpurp-container .wpurp-recipe-sharing .button.pinterest {
+    margin-top: 32px !important; }
+  html body .wpurp-container .sharrre iframe {
+    margin: 0 !important;
+    max-width: none !important; }
+  html body .wpurp-container .sharrre .button.pinterest a {
+    background-image: url(../img/pinit_bg_en_rect_gray_28_2.png) !important;
+    background-size: 100% auto !important; }
